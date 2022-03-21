@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head> :
+<body>
+    <form method = 'POST' action = '' id="formulaire" name="formu">
+       
+        <h2 id="title">Formulaire d'inscription</h2>
+
+    <span id="style">Prenom : </span> <br>
+    <input type = 'text' name = 'prenom' id="inputone">
+   
+    <p id="h1_prenom">Le champs Prenom n'est pas valide</p>
+        <br>
+    
+        <span id="style">Nom :</span> <br>
+     <input type = 'text' name = 'nom' value="" id="inputtwo">
+    
+    <p id="h2_name">Le champs "Nom" n'est pas valide</p>
+    <br>
+    
+    <span id="style">E-mail :</span> <br>
+     <input type = 'text' name = 'e-mail' id="inputthree">
+    
+    <p id="h3_email">Le champs "Email" n'est pas valide</p>
+        <br>
+    
+        <span id="style">Age :</span> <br>
+     <input type = 'text' name = 'age' id="inputfour">
+    
+    <p id="h4_age">Le champs "Age" n'est pas valide</p>
+        <br>
+    
+        <span id="style">Bachelor : </span> <br>
+     <input type = 'text' name = 'bachelor' id="inputfive">
+    
+    <p id="h5_bachelor">Le champs "Bachelor" n'est pas valide</p>
+        <br>
+    
+        <span id="style">Password :</span> <br>
+     <input type='password' name= 'password' id="inputsix">
+    
+    <p id="h6_password">Le champs "Mot de passe" n'est pas valide</p>
+        <br>
+    
+        <span id="style">Retaper le Mot de Passe :</span> <br>
+     <input type = 'password' name = 'reloading' id="inputseven">
+    <br>
+    <p id="h7_retry_password">Les "Mot de passe" ne sont pas identiques</p>
+    <br>
+    
+    <div class="containerd">
+    <p id="sexeCss">Sexe :</p> 
+        
+    <br>
+    
+    <span id="homme">Homme : <input type = 'radio' name = 'sexe'></span>  
+    <br>
+    <span id="femme">Femme : <input type = 'radio' name = 'sexe'></span> 
+    <br>
+    <p id="invalidSexe"><p id="h8_sexe">Le champ "sexe" n'est pas valide</p></p> 
+    <br>
+</div>
+
+    <div class="containerTome">
+        <p id="tomeP">Tome :</p> 
+            
+            <br>
+                <span id="tome1"><input type = 'checkbox' name = 'tome'>Le Guide du voyageur galactique</span> 
+            <br>
+                <span id="tome2"><input type = 'checkbox' name = 'tome'> Le dernier restaurant avant la fin du monde</span>
+            <br>
+                <span id="tome3"><input type = 'checkbox' name = 'tome'> La Vie, l'Univers et le Reste</span>
+            <br>
+                <span id="tome4"><input type = 'checkbox' name = 'tome'> Salut, et encore merci pour le poisson</span>
+            <br>
+                <span id="tome5"><input type = 'checkbox' name = 'tome'> Globalment inoffensive</span>
+
+                <h2 id="h9_check">Veuillez choisir 1 à 2 tomes au maximum.</h2>
+            <br>
+    </div>
+    
+        <span id="comment">Un petit commentaire ? </span> <br>
+            <br>
+        <textarea name = 'commentaire' id="textareaa" >
+            </textarea>
+            <br>
+            <br>
+        <button id="inscription">S'inscrire !</a></button>
+        
+ </form>
+
+
+
+    
+</body>
+</html>
