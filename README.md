@@ -4,5 +4,5 @@
 
 #### Below is a representation of the project.
 
-![This is an image](./images/screenForm.png)
+![This is an image](./images/screenFormJS.png)
 
